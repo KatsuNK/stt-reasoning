@@ -13,7 +13,7 @@ cd stt-based_reasoning && pip install -r requirements.txt
 
 - Create a [Hugging Face](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) account and generate an access token
 
-- Put the access toekn in [llama3_api.py](./stt-based_reasoning/utils/APIs/llama3_api.py) (line 56)
+- Put the access token in [llama3_api.py](./stt-based_reasoning/utils/APIs/llama3_api.py) (line 56)
 
 ### Gemini
 
