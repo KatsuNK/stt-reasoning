@@ -26,17 +26,15 @@ from utils.task_handler import (
 
 logger = loguru.logger
 
-def convert_to_task_id(navi, task_names):
-    return {task_names[task]:[task_names[next_task] for next_task in next_tasks] for task, next_tasks in navi.items()}
 
 class PentestSTT():
-    def __init__(self, json_path, task_nav_path, log_dir, model_id):
+    def __init__(self, json_path='json/task_tree.json', task_nav_path='json/task_navigator_id.json', log_dir='logs', model_id=0):
         # log
         self.log_dir = log_dir
         logger.add(sink=os.path.join(log_dir, "Pentest.log"))
         self.save_dir = "test_history"
         model_configs = ["llama-3", "gemini-1.5", "gpt-4"]
-        self.model_name = model_configs[int(model_id)]
+        self.model_name = model_configs[model_id]
         self.history = { # history for log
             "user": [],
             self.model_name: [],
@@ -521,11 +519,11 @@ class PentestSTT():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("json_path", type=str, default='json/task_tree.json', help="path to task tree (.json)")
-    parser.add_argument("task_nav_path", type=str, default='json/task_navigator_id.json', help="path to navigator (.json)")
-    parser.add_argument("log_dir", type=str, default='logs', help="path to logging directory")
-    parser.add_argument("model_id", type=str, default='0', help="model id: 0 (Llama), 1 (Gemini), 2 (GPT)")
-    argv = ["", "generic_json/generic_task_tree.json", "generic_json/task_navigator_id.json", "logs", "1"]
-    args = parser.parse_args(argv[1:])
-    pentest = PentestSTT(args.json_path, args.task_nav_path, args.log_dir, args.model_id)
+    #parser.add_argument("json_path", type=str, default='json/task_tree.json', help="path to task tree (.json)")
+    #parser.add_argument("task_nav_path", type=str, default='json/task_navigator_id.json', help="path to navigator (.json)")
+    #parser.add_argument("log_dir", type=str, default='logs', help="path to logging directory")
+    parser.add_argument("--model_id", type=int, default=0, help="model id: 0 (Llama), 1 (Gemini), 2 (GPT)")
+    #argv = ["", "generic_json/generic_task_tree.json", "generic_json/task_navigator_id.json", "logs", "1"]
+    args = parser.parse_args()
+    pentest = PentestSTT(model_id=args.model_id)
     pentest.main()

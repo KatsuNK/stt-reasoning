@@ -1,0 +1,483 @@
+{
+    "Active Scanning": [
+        "Search Victim-Owned Websites",
+        "Network Service Discovery",
+        "System Network Configuration Discovery",
+        "Remote System Discovery",
+        "Domain Trust Discovery"
+    ],
+    "Gather Victim Identity": [
+        "System Owner/User Discovery",
+        "Browser Information Discovery",
+        "Password Policy Discovery",
+        "Credentials from Password Stores"
+    ],
+    "Gather Victim Network Information": [
+        "Network Sniffing",
+        "System Network Connections Discovery",
+        "Network Share Discovery",
+        "Domain Trust Discovery"
+    ],
+    "Gather Victim Org Information": [
+        "Domain Trust Discovery",
+        "Log Enumeration",
+        "System Location Discovery",
+        "Group Policy Discovery"
+    ],
+    "Search Open Technical Databases": [
+        "Valid Accounts (Initial)",
+        "Steal Web Session Cookie",
+        "Forced Authentication",
+        "Credentials from Password Stores"
+    ],
+    "Search Victim-Owned Websites": [
+        "Browser Information Discovery",
+        "Forced Authentication",
+        "Steal Web Session Cookie"
+    ],
+    "Account Discovery": [
+        "Valid Accounts (Privilege)",
+        "System Owner/User Discovery",
+        "Domain Trust Discovery",
+        "Permission Groups Discovery"
+    ],
+    "Application Window Discovery": [
+        "Browser Information Discovery",
+        "Input Capture",
+        "System Information Discovery",
+        "Query Registry"
+    ],
+    "Browser Information Discovery": [
+        "Valid Accounts (Initial)",
+        "Steal Web Session Cookie",
+        "Input Capture",
+        "Forced Authentication"
+    ],
+    "Container and Resource Discovery": [
+        "Virtualization/Sandbox Evasion",
+        "File and Directory Discovery",
+        "System Network Connections Discovery",
+        "Escape to Host"
+    ],
+    "Debugger Evasion": [
+        "Command and Scripting Interpreter",
+        "Virtualization/Sandbox Evasion",
+        "Process Injection",
+        "System Owner/User Discovery"
+    ],
+    "Domain Trust Discovery": [
+        "Valid Accounts (Initial)",
+        "Network Service Discovery",
+        "Remote System Discovery",
+        "Query Registry"
+    ],
+    "File and Directory Discovery": [
+        "Query Registry",
+        "Create or Modify System Process",
+        "Access Token Manipulation",
+        "Scheduled Task/Job"
+    ],
+    "Group Policy Discovery": [
+        "Domain Trust Discovery",
+        "Permission Groups Discovery",
+        "System Service Discovery",
+        "Password Policy Discovery"
+    ],
+    "Log Enumeration": [
+        "System Owner/User Discovery",
+        "Query Registry",
+        "Password Policy Discovery",
+        "Remote System Discovery"
+    ],
+    "Network Service Discovery": [
+        "Remote System Discovery",
+        "System Network Connections Discovery",
+        "Valid Accounts (Initial)",
+        "Access Token Manipulation"
+    ],
+    "Network Share Discovery": [
+        "Remote Services",
+        "Permission Groups Discovery",
+        "File and Directory Discovery",
+        "Domain Trust Discovery"
+    ],
+    "Network Sniffing": [
+        "Credentials from Password Stores",
+        "System Network Connections Discovery",
+        "OS Credential Dumping",
+        "Remote Service Session Hijacking"
+    ],
+    "Password Policy Discovery": [
+        "Valid Accounts (Initial)",
+        "Credentials from Password Stores",
+        "Domain Trust Discovery",
+        "Query Registry"
+    ],
+    "Permission Groups Discovery": [
+        "Domain Trust Discovery",
+        "Access Token Manipulation",
+        "System Service Discovery",
+        "Process Discovery"
+    ],
+    "Process Discovery": [
+        "Access Token Manipulation",
+        "Query Registry",
+        "Create or Modify System Process",
+        "System Service Discovery"
+    ],
+    "Query Registry": [
+        "System Information Discovery",
+        "Create or Modify System Process",
+        "Access Token Manipulation",
+        "Hijack Execution Flow"
+    ],
+    "Remote System Discovery": [
+        "Network Service Discovery",
+        "Remote Services",
+        "Domain Trust Discovery",
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)"
+    ],
+    "Software Discovery": [
+        "Create or Modify System Process",
+        "Hijack Execution Flow",
+        "Process Injection",
+        "Steal Application Access Token"
+    ],
+    "System Information Discovery": [
+        "Valid Accounts (Initial)",
+        "Domain Trust Discovery",
+        "Virtualization/Sandbox Evasion",
+        "File and Directory Discovery"
+    ],
+    "System Location Discovery": [
+        "Domain Trust Discovery",
+        "Virtualization/Sandbox Evasion",
+        "System Information Discovery",
+        "Query Registry"
+    ],
+    "System Network Configuration Discovery": [
+        "Remote System Discovery",
+        "Network Service Discovery",
+        "Domain Trust Discovery",
+        "Access Token Manipulation"
+    ],
+    "System Network Connections Discovery": [
+        "Access Token Manipulation",
+        "OS Credential Dumping",
+        "Query Registry",
+        "Valid Accounts (Initial)"
+    ],
+    "System Owner/User Discovery": [
+        "Access Token Manipulation",
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Query Registry",
+        "Remote Services"
+    ],
+    "System Service Discovery": [
+        "Process Discovery",
+        "Access Token Manipulation",
+        "Query Registry",
+        "Valid Accounts (Initial)"
+    ],
+    "System Time Discovery": [
+        "System Information Discovery",
+        "Query Registry",
+        "Domain Trust Discovery",
+        "Remote System Discovery"
+    ],
+    "Virtualization/Sandbox Evasion": [
+        "Escape to Host",
+        "System Information Discovery",
+        "Domain Trust Discovery",
+        "File and Directory Discovery"
+    ],
+    "Content Injection": [
+        "Input Capture",
+        "Forced Authentication",
+        "Steal Web Session Cookie",
+        "Browser Information Discovery"
+    ],
+    "Drive-by Compromise": [
+        "Forced Authentication",
+        "Steal Web Session Cookie",
+        "Network Sniffing",
+        "Credentials from Password Stores"
+    ],
+    "External Remote Services": [
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Remote System Discovery",
+        "System Owner/User Discovery",
+        "OS Credential Dumping"
+    ],
+    "Valid Accounts (Initial)": [
+        "System Network Connections Discovery",
+        "Remote Services",
+        "Domain Trust Discovery",
+        "Process Discovery",
+        "Privilege Escalation"
+    ],
+    "Adversary-in-the-Middle": [
+        "Network Sniffing",
+        "Steal Web Session Cookie",
+        "Forge Web Credentials",
+        "Credentials from Password Stores"
+    ],
+    "Brute Force": [
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Forced Authentication",
+        "Input Capture",
+        "Credentials from Password Stores"
+    ],
+    "Credentials from Password Stores": [
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Process Discovery",
+        "OS Credential Dumping",
+        "Network Share Discovery"
+    ],
+    "Exploitation for Credential Access": [
+        "OS Credential Dumping",
+        "Steal or Forge Kerberos Tickets",
+        "Access Token Manipulation",
+        "Domain Trust Discovery"
+    ],
+    "Forced Authentication": [
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Steal Web Session Cookie",
+        "Browser Information Discovery",
+        "Credentials from Password Stores"
+    ],
+    "Forge Web Credentials": [
+        "Steal Web Session Cookie",
+        "Valid Accounts (Initial)",
+        "Remote Service Session Hijacking",
+        "Forced Authentication"
+    ],
+    "Input Capture": [
+        "Steal Web Session Cookie",
+        "Credentials from Password Stores",
+        "Steal Application Access Token",
+        "Multi-Factor Authentication Interception"
+    ],
+    "Modify Authentication Process": [
+        "Access Token Manipulation",
+        "Hijack Execution Flow",
+        "Process Injection",
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)"
+    ],
+    "Multi-Factor Authentication Interception": [
+        "Steal Web Session Cookie",
+        "Forge Web Credentials",
+        "Steal or Forge Authentication Certificates",
+        "Network Sniffing"
+    ],
+    "Multi-Factor Authentication Request Generation": [
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Steal Application Access Token",
+        "Credentials from Password Stores",
+        "Steal or Forge Authentication Certificates"
+    ],
+    "OS Credential Dumping": [
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Access Token Manipulation",
+        "Steal or Forge Authentication Certificates",
+        "Hijack Execution Flow"
+    ],
+    "Steal Application Access Token": [
+        "Forge Web Credentials",
+        "Access Token Manipulation",
+        "Process Injection",
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)"
+    ],
+    "Steal or Forge Authentication Certificates": [
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Steal Web Session Cookie",
+        "Access Token Manipulation",
+        "Domain Trust Discovery"
+    ],
+    "Steal or Forge Kerberos Tickets": [
+        "Valid Accounts (Initial)",
+        "Access Token Manipulation",
+        "Domain Trust Discovery",
+        "OS Credential Dumping"
+    ],
+    "Steal Web Session Cookie": [
+        "Forced Authentication",
+        "Browser Information Discovery",
+        "Forge Web Credentials",
+        "Valid Accounts (Initial)"
+    ],
+    "Unsecured Credentials": [
+        "Credentials from Password Stores",
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Steal Application Access Token",
+        "Forced Authentication"
+    ],
+    "Command and Scripting Interpreter": [
+        "File and Directory Discovery",
+        "Process Discovery",
+        "System Network Configuration Discovery",
+        "OS Credential Dumping",
+        "Password Policy Discovery"
+    ],
+    "Exploitation for Client Execution": [
+        "Application Window Discovery",
+        "Input Capture",
+        "Credentials from Password Stores",
+        "System Owner/User Discovery"
+    ],
+    "Inter-Process Communication": [
+        "Process Discovery",
+        "Create or Modify System Process",
+        "System Service Discovery",
+        "Access Token Manipulation"
+    ],
+    "Native API": [
+        "System Information Discovery",
+        "Domain Trust Discovery",
+        "Virtualization/Sandbox Evasion",
+        "Hijack Execution Flow"
+    ],
+    "Scheduled Task/Jobs": [
+        "Create or Modify System Process",
+        "Remote System Discovery",
+        "File and Directory Discovery",
+        "Access Token Manipulation"
+    ],
+    "Shared Modules": [
+        "Process Injection",
+        "System Network Connections Discovery",
+        "Steal Application Access Token",
+        "Query Registry"
+    ],
+    "System Services": [
+        "System Service Discovery",
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Network Share Discovery",
+        "Remote Service Session Hijacking"
+    ],
+    "Windows Management Instrumentation": [
+        "System Owner/User Discovery",
+        "Network Service Discovery",
+        "OS Credential Dumping",
+        "Domain Trust Discovery"
+    ],
+    "Exploitation of Remote Services": [
+        "Remote System Discovery",
+        "Credentials from Password Stores",
+        "Steal or Forge Kerberos Tickets",
+        "Network Sniffing"
+    ],
+    "Lateral Tool Transfer": [
+        "Create or Modify System Process",
+        "System Network Connections Discovery",
+        "Command and Scripting Interpreter",
+        "File and Directory Discovery"
+    ],
+    "Remote Service Session Hijacking": [
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Permission Groups Discovery",
+        "System Information Discovery",
+        "System Owner/User Discovery"
+    ],
+    "Remote Services": [
+        "Process Discovery",
+        "OS Credential Dumping",
+        "Domain Trust Discovery",
+        "Network Share Discovery"
+    ],
+    "Software Deployment Tools": [
+        "Access Token Manipulation",
+        "Scheduled Task/Job",
+        "System Service Discovery",
+        "File and Directory Discovery"
+    ],
+    "Taint Shared Content": [
+        "Steal Application Access Token",
+        "Password Policy Discovery",
+        "System Network Connections Discovery",
+        "Domain Trust Discovery"
+    ],
+    "Use Alternate Authentication Material": [
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Credentials from Password Stores",
+        "Network Share Discovery",
+        "OS Credential Dumping"
+    ],
+    "Abuse Elevation Control Mechanism": [
+        "Process Injection",
+        "Access Token Manipulation",
+        "System Owner/User Discovery",
+        "Domain or Tenant Policy Modification"
+    ],
+    "Access Token Manipulation": [
+        "Create or Modify System Process",
+        "Remote System Discovery",
+        "OS Credential Dumping",
+        "Hijack Execution Flow"
+    ],
+    "Account Manipulation": [
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Domain Trust Discovery",
+        "Password Policy Discovery",
+        "System Owner/User Discovery"
+    ],
+    "Create or Modify System Process": [
+        "File and Directory Discovery",
+        "System Service Discovery",
+        "Hijack Execution Flow",
+        "Remote Service Session Hijacking"
+    ],
+    "Domain or Tenant Policy Modification": [
+        "Valid Accounts (Initial)",
+        "Valid Accounts (Privilege)",
+        "Domain Trust Discovery",
+        "Scheduled Task/Job",
+        "Query Registry"
+    ],
+    "Escape to Host": [
+        "Virtualization/Sandbox Evasion",
+        "File and Directory Discovery",
+        "System Network Configuration Discovery",
+        "Process Discovery"
+    ],
+    "Exploitation for Privilege Escalation": [
+        "Create or Modify System Process",
+        "OS Credential Dumping",
+        "System Service Discovery",
+        "Query Registry"
+    ],
+    "Hijack Execution Flow": [
+        "Access Token Manipulation",
+        "Process Discovery",
+        "System Owner/User Discovery",
+        "Remote Services"
+    ],
+    "Process Injection": [
+        "Create or Modify System Process",
+        "OS Credential Dumping",
+        "Steal Application Access Token",
+        "File and Directory Discovery"
+    ],
+    "Scheduled Task/Job": [
+        "Create or Modify System Process",
+        "Network Share Discovery",
+        "Remote System Discovery",
+        "Permission Groups Discovery"
+    ]
+}
