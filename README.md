@@ -44,7 +44,7 @@ python main.py --reasoning_model gemini-1.5 --parsing_model gemini-1.5
 
 ```
 cd stt-based_reasoning
-python main.py --model 1
+python main.py --model_id 1
 ```
 
 - model_id: 0 (Llama 3), 1 (Gemini 1.5), 2 (GPT 4)
