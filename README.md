@@ -40,6 +40,8 @@ cd pentestgpt
 python main.py --reasoning_model gemini-1.5 --parsing_model gemini-1.5
 ```
 
+- models: llama-3, gemini-1.5, gpt-4
+
 ## Command Example to Run STT-based Reasoning
 
 ```
