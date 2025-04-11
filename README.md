@@ -54,7 +54,7 @@ Key available from [OpenAI Platform](https://platform.openai.com/api-keys)
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. Run Self-Guided Reasoning (PentestGPT Baseline)
 
