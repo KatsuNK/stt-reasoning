@@ -76,3 +76,33 @@ python main.py --model_id 1
   - `0` → Llama3-8B (local)
   - `1` → Gemini-1.5 (API)
   - `2` → GPT-4 (API)
+
+## How to run the tools on HackTheBox machines
+
+### Install [Kali-linux](https://www.kali.org/docs/installation/hard-disk-install/)
+
+- For Windows, [Kali WSL](https://www.kali.org/docs/wsl/wsl-preparations/) is also available
+
+### Spawn a HTB machine
+
+1. Go to [HackTheBox website](https://app.hackthebox.com/machines)
+2. Select and spawn a machine to obtain its IP address
+3. Download <YOUR_HTB_USERNAME>.opvn from the "CONNECT TO HTB" tab
+
+### 
+
+- Check OpenVPN connection
+
+```bash
+sudo openvpn <PATH_TO_YOUR_OPVN>
+ping <MACHINE_IP_ADDRESS>
+```
+
+- Both our method and PentestGPT start a session with:
+
+```
+Please describe the penetration testing task in one line, including the target IP, task type, etc.
+> 
+```
+
+- Example: I want to pentest <MACHINE_IP_ADDRESS>, which is a machine from HackTheBox
