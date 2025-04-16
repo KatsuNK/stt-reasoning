@@ -105,7 +105,7 @@ Please describe the penetration testing task in one line, including the target I
 > 
 ```
 
-- Example:
+- Example
   
 ```
 > I want to pentest <MACHINE_IP_ADDRESS>, which is a machine from HackTheBox
