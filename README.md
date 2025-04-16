@@ -89,7 +89,7 @@ python main.py --model_id 1
 2. Select and spawn a machine to obtain its IP address
 3. Download <YOUR_HTB_USERNAME>.opvn from the "CONNECT TO HTB" tab
 
-### Check OpenVPN connection
+### Check OpenVPN connection on Kali-linux
 
 ```bash
 sudo openvpn <PATH_TO_YOUR_OPVN>
