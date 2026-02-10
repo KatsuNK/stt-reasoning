@@ -102,11 +102,23 @@ ping <MACHINE_IP_ADDRESS>
 
 ```
 Please describe the penetration testing task in one line, including the target IP, task type, etc.
-> 
+>
 ```
 
 - Example
-  
+
 ```
 > I want to pentest <MACHINE_IP_ADDRESS>, which is a machine from HackTheBox
 ```
+
+## Citations:
+If you have found this repo useful for your research, I would greatly appreciate citations to the original work.
+
+&ensp;@inproceedings{nakanoguided,\
+&ensp;title={Guided Reasoning in LLM-Driven Penetration Testing Using Structured Attack Trees},\
+&ensp;author={Nakano, Katsuaki and Fayyazi, Reza and Yang, Shanchieh and Zuzak, Michael},\
+&ensp;booktitle={Second Conference on Language Modeling}\
+&ensp;}
+
+## Acknowledgements:
+A special thanks to the NSF for supporting this work under Grant 2344237.
